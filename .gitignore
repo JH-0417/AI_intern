@@ -1,0 +1,25 @@
+# 데이터셋 (용량이 커서 제외 — 코드가 처음 실행될 때 자동으로 내려받음)
+data/
+
+# 체크포인트 (학습된 가중치)
+*.pt
+*.pth
+
+# 실행 로그 (터미널 출력 사본)
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 에디터 / 도구 설정
+.vscode/
+.claude/
+
+# 백업·임시 파일
+*.bak
+~$*
+
+# 커리큘럼 원본 (배포용 아님)
+intern.pdf
